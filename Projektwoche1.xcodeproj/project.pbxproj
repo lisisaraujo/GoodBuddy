@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8AFE522C987CDB007213D2 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AFE512C987CDB007213D2 /* Activity.swift */; };
+		1A8AFE542C987D30007213D2 /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AFE532C987D30007213D2 /* ActivityType.swift */; };
 		A7047B962C9871C5000E34F9 /* Vet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7047B952C9871C5000E34F9 /* Vet.swift */; };
 		A7047B982C987239000E34F9 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7047B972C987239000E34F9 /* Appointment.swift */; };
 		B3518D022C98458A00510A60 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3518D012C98458A00510A60 /* HomeTabView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A8AFE512C987CDB007213D2 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		1A8AFE532C987D30007213D2 /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
 		A7047B952C9871C5000E34F9 /* Vet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vet.swift; sourceTree = "<group>"; };
 		A7047B972C987239000E34F9 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
 		B3518D012C98458A00510A60 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 			children = (
 				A7047B952C9871C5000E34F9 /* Vet.swift */,
 				A7047B972C987239000E34F9 /* Appointment.swift */,
+				1A8AFE512C987CDB007213D2 /* Activity.swift */,
+				1A8AFE532C987D30007213D2 /* ActivityType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8AFE522C987CDB007213D2 /* Activity.swift in Sources */,
 				B3518D082C98466A00510A60 /* PetView.swift in Sources */,
 				B3518D062C9845B500510A60 /* Pet.swift in Sources */,
 				B3518D022C98458A00510A60 /* HomeTabView.swift in Sources */,
@@ -205,6 +212,7 @@
 				A7047B962C9871C5000E34F9 /* Vet.swift in Sources */,
 				B3518D0A2C98499500510A60 /* PetSelectorElement.swift in Sources */,
 				B3518D042C98459600510A60 /* HomeView.swift in Sources */,
+				1A8AFE542C987D30007213D2 /* ActivityType.swift in Sources */,
 				DB9E9DEC2C9466C800B47DFA /* ContentView.swift in Sources */,
 				DB9E9DEA2C9466C800B47DFA /* Projektwoche1App.swift in Sources */,
 			);
