@@ -17,7 +17,6 @@ class Activity: Identifiable, Hashable {
     var type: ActivityType
     var duration: Double
     var isDone: Bool = false
-    
     init(name: String, activityDescription: String, date: Date, type: ActivityType, duration: Double, isDone: Bool) {
         self.name = name
         self.activityDescription = activityDescription
@@ -26,6 +25,4 @@ class Activity: Identifiable, Hashable {
         self.duration = duration
         self.isDone = isDone
     }
-    
-    
 }

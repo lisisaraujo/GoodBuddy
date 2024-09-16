@@ -6,10 +6,14 @@
 //
 
 import Foundation
-
 enum ActivityType: String, CaseIterable, Identifiable {
     case walks, sleep, playtime, training
-    
-    
     var id: String { self.rawValue }
 }
+
+
+
+
+
+
+
